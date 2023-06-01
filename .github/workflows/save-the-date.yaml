@@ -20,3 +20,4 @@ jobs:
           git diff
           git add .
           git commit -m "Save the date"
+          git push
