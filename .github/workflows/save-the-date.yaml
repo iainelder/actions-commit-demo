@@ -5,7 +5,7 @@ on:
 
 jobs:
   save-the-date:
-    runs-on: ubuntu-latest
+
     steps:
       - name: Check out
         uses: actions/checkout@v3
@@ -21,3 +21,8 @@ jobs:
           git add .
           git commit -m "Save the date"
           git push
+
+    permissions:
+      actions: write
+    
+    runs-on: ubuntu-latest
