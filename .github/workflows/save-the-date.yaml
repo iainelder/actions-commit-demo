@@ -22,7 +22,6 @@ jobs:
           git commit -m "Save the date"
           git push
 
-    permissions:
-      actions: write
+    permissions: write-all
     
     runs-on: ubuntu-latest
